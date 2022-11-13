@@ -1,12 +1,47 @@
 .footer {
   height: 20.125rem;
   background-color: #1d1d1e;
+  color: #fff;
   display: flex;
-  display: flex;
-  min-height: 100vh;
   flex-direction: row;
   position: absolute;
   left: 0;
   padding: 3.2rem 6rem;
   width: 100%;
+  .head {
+    .socials {
+      margin-top: 6rem;
+      display: flex;
+      flex-direction: row;
+      width: 6rem;
+      justify-content: space-between;
+    }
+    p {
+      align-items: flex-start;
+      text-align: left;
+      margin-top: 4rem;
+    }
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 1.75rem;
+    ul {
+        text-align: left;
+        height: 10rem;
+      h1 {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      li {
+        list-style: none;
+        color: #f1f3f9;
+        margin: 1rem 0;
+        font-size: 14px;
+
+      }
+    }
+  }
 }

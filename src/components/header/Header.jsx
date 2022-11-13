@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from "../../assets/Logo.svg"
 import LogoName from "../../assets/LogoName.svg"
 import "./Header.scss"
@@ -12,8 +13,8 @@ function Header() {
         </div>
 
         <ul className='nav'>
-            <li>Home</li>
-            <li>Place to stay</li>
+            <li> <Link to="/">Home</Link></li>
+            <li><Link to="/place"> Place to stay</Link></li>
             <li>NFTs</li>
             <li>Community</li>
         </ul>

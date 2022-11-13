@@ -1,0 +1,11 @@
+.place__page {
+  .cards {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 3.6875rem;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 3.2rem 6rem;
+  }
+}

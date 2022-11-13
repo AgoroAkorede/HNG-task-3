@@ -1,9 +1,14 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   text-align: center;
+  overflow-x: hidden
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-
+.main__page{
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
 

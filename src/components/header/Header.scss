@@ -6,6 +6,8 @@
   justify-content: space-between;
   font-family: "Inter", sans-serif;
   margin-top: 3.2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
   .logo__container {
     display: flex;
     flex-direction: row;
@@ -26,6 +28,11 @@
     li {
       text-decoration: none;
       list-style: none;
+      a {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+      }
     }
   }
   .btn__connect {
@@ -39,5 +46,8 @@
     width: 10.625rem;
     border-radius: 10px;
     cursor: pointer;
+    &:hover {
+      background-color: darken($color: #a02279, $amount: 10%);
+    }
   }
 }

@@ -20,7 +20,6 @@ import Frame6 from "../../assets/frame 6.png";
 import Frame7 from "../../assets/frame 7.png";
 import Frame8 from "../../assets/frame 8.png";
 import Card from "../../components/Card/Card";
-import Footer from "../../components/footer/Footer";
 
 function Mainpage() {
   const ListofCards = [
