@@ -1,0 +1,176 @@
+.main {
+  //   overflow: hidden;
+  font-family: "Red Rose";
+  display: flex;
+  flex-direction: column;
+  .first__section {
+    display: flex;
+    flex-direction: row;
+    padding: 3.2rem 6rem;
+    .container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10rem;
+      width: 40.475rem;
+      .header {
+        font-size: 3.5rem;
+        height: 8rem;
+        line-height: 4.9rem;
+        font-weight: 400;
+        flex-wrap: wrap;
+        .header__special {
+          color: #a02279;
+        }
+      }
+      article {
+        text-align: left;
+        margin-top: 3rem;
+      }
+      .search {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        input {
+          height: 3.375rem;
+          width: 24.375rem;
+          border: solid 1px #a3a3a3;
+        }
+        .btn__search {
+          border: solid 1px #a3a3a3;
+          background-color: #a02279;
+          border-top-right-radius: 0.5rem;
+          border-bottom-right-radius: 0.5rem;
+          width: 14.375rem;
+          color: #fff;
+          &:hover {
+            background-color: darken($color: #a02279, $amount: 10%);
+          }
+        }
+      }
+    }
+    .images {
+      display: grid;
+      margin-top: 8.625rem;
+      margin-left: 6.25rem;
+      grid-template-columns: 14.625rem 14.625rem;
+      grid-template-rows: auto auto;
+      gap: 0.5rem;
+      margin-bottom: 4.1875rem;
+      img:nth-child(2) {
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+      }
+      img:nth-child(4) {
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+      }
+    }
+  }
+  .section__break {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #a02279;
+    height: 5rem;
+    // position: absolute;
+    // left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2.4375rem;
+    .item {
+      font-size: 2.5rem;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-weight: 700;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .second__section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.4375rem;
+    width: 100%;
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .cards {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 3.6875rem;
+      flex-wrap: wrap;
+    }
+  }
+  .third__section {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    background-color: #a02279;
+    left: 0;
+    padding: 3.2rem 6rem;
+    width: 100%;
+    margin-top: 53px;
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #fff;
+      .header {
+        // margin-top: 18.625rem;
+        font-size: 3rem;
+        font-weight: 700;
+      }
+      article {
+        margin-top: 35px;
+        width: 25.9375rem;
+        text-align: left;
+      }
+      button {
+        height: 48px;
+        width: 156px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 3.625rem;
+      }
+    }
+    .images {
+      margin-left: 7.625rem;
+      width: auto;
+      position: relative;
+      img {
+        position: absolute;
+        height: 16rem;
+        width: 23.625rem;
+      }
+      img:nth-child(1) {
+        right: 22rem;
+        top: 16.9rem;
+        border-radius: 10px;
+        z-index: 2;
+      }
+      img:nth-child(2) {
+        right: 6.2rem;
+        top: 323.925537109375px;
+        border-radius: 10px;
+
+        z-index: 3;
+      }
+      img:nth-child(3) {
+        right: 7.5rem;
+        top: 8rem;
+        border-radius: 10px;
+        z-index: 1;
+      }
+    }
+  }
+}
