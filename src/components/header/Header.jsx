@@ -11,16 +11,6 @@ function Header() {
   const [modal, setModal] = useState(false);
   const [isOpen, setOpen] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-        if(window.scrollY > 49 ) {
-            setScroll("scrolled")
-        }
-        else {
-            setScroll("")
-        }
-    })
-}, [ setScroll ])
   return (
     <div>
       <div className="header__main">
