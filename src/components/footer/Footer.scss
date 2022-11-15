@@ -29,8 +29,8 @@
     width: 80%;
     margin-top: 1.75rem;
     ul {
-        text-align: left;
-        height: 10rem;
+      text-align: left;
+      height: 10rem;
       h1 {
         font-size: 18px;
         font-weight: 700;
@@ -40,8 +40,28 @@
         color: #f1f3f9;
         margin: 1rem 0;
         font-size: 14px;
-
       }
     }
+  }
+}
+@media (max-width: 800px) {
+  .footer {
+    padding: 2rem 4rem;
+    flex-direction: column;
+    height: auto;
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      ul {
+        height: auto;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .footer {
+    height: auto;
+    padding: 1.5rem 2.5rem;
   }
 }

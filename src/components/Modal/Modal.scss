@@ -1,0 +1,54 @@
+.connect-wallet {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 500px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cfd8dc;
+    padding: 0 25px;
+    width: 100%;
+    margin: 0;
+    height: 50px;
+  }
+  ul {
+    padding: 0 25px;
+    margin: 20px 0;
+    p {
+      margin: 1rem;
+      text-align: left;
+    }
+    li {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 12px;
+      margin: 10px 0;
+      border: 1px solid #cfd8dc;
+      border-radius: 5px;
+      height: 56.3px;
+      cursor: pointer;
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h4 {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+.connect-wallet svg {
+  color: #959da6;
+}
+
+@media (max-width: 500px) {
+  .connect-wallet {
+    width: 90%;
+    margin: auto;
+  }
+}
